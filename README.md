@@ -1,9 +1,3 @@
-# 1102tools
-
-Free, open tooling for federal contracting, built for GS-1102s and small businesses.
-
-[Skills](https://github.com/1102tools-dev/federal-contracting-skills) · [MCPs](https://github.com/1102tools-dev/federal-contracting-mcps) · [Agents](https://github.com/1102tools-dev/federal-contracting-agents) · [Site](https://1102tools.com)
-
 ## Roadmap
 
 **MCPs: refreshed.** All eight servers just went through a full audit. Roughly a hundred fixes shipped to PyPI, and every open issue on the tracker is closed.
