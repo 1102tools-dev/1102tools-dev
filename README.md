@@ -2,7 +2,7 @@
 
 Free, open tooling for federal contracting, built for GS-1102s and small businesses.
 
-Built and maintained by James Jenrette, a current lead systems analyst and contracting officer. 1102tools is independently developed and is not affiliated with or endorsed by any federal agency.
+Built and maintained by a current lead systems analyst and contracting officer. 1102tools is independently developed and is not affiliated with or endorsed by any federal agency.
 
 [Skills](https://github.com/1102tools-dev/federal-contracting-skills) · [MCPs](https://github.com/1102tools-dev/federal-contracting-mcps) · [Agents](https://github.com/1102tools-dev/federal-contracting-agents) · [Prompts](https://github.com/1102tools-dev/federal-contracting-prompts) · [Site](https://1102tools.com)
 
