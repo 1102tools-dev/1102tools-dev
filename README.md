@@ -14,9 +14,9 @@ Choose the job in front of you, install one agent package, and describe the work
 | **Pre-Award Agent** | SOW/PWS development, IGCEs, and approved scope-to-pricing workflows | `1.0.0-rc.3` public preview |
 | **GovCon Growth Agent** | Opportunities, competitors, recompetes, teaming, agencies, markets, and pricing context | `1.0.0-rc.2` public preview |
 | **Other Transaction Agent** | Milestone-based OT project descriptions, cost analysis, revisions, and recosting | `1.0.0-rc.3` public preview |
-| **Acquisition Policy Agent** | Codified rules, RFO status, deviations, rulemakings, comments, and policy impacts | `1.0.0-rc.1` gated preview; not currently an installable supported path |
+| **Acquisition Policy Agent** | Codified rules, RFO status, deviations, rulemakings, comments, and policy impacts | `1.0.0-rc.2` public preview |
 
-Market Research and GovCon Growth require approval before every public-web research run and retain native-only or no-public-web alternatives. Acquisition Policy remains gated on its required Acquisition.gov package and clean release checks. Every agent links its current testing record.
+Market Research and GovCon Growth require approval before every public-web research run and retain native-only or no-public-web alternatives. Acquisition Policy reports documented status rather than legal advice or a procurement-specific applicability determination. Every agent links its current testing record and open release gates.
 
 ## Advanced building blocks
 
