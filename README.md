@@ -1,11 +1,31 @@
 # 1102tools
 
-Free, open tooling for federal contracting, built for GS-1102s and small businesses.
+Open federal acquisition AI agents for the government workforce and federal contracting industry.
+
+Choose the job in front of you, install one agent package, and describe the work in ordinary language. The maintained setup paths are Codex Desktop and CLI, Claude Code, and DeepSeek Harness Web.
+
+[Agents](https://github.com/1102tools-dev/federal-contracting-agents) · [Website](https://1102tools.com) · [Agent Setup Guide](https://1102tools.com/downloads/1102tools-agent-setup-guide.pdf) · [How It Works](https://1102tools.com/examples)
+
+## Current agent previews
+
+| Agent | Work | Status |
+|---|---|---|
+| **Market Research Agent** | FAR Part 10 research, commerciality, competition, small-business availability, and market conditions | `1.0.0-rc.3` public preview |
+| **Pre-Award Agent** | SOW/PWS development, IGCEs, and approved scope-to-pricing workflows | `1.0.0-rc.3` public preview |
+| **GovCon Growth Agent** | Opportunities, competitors, recompetes, teaming, agencies, markets, and pricing context | `1.0.0-rc.2` public preview |
+| **Other Transaction Agent** | Milestone-based OT project descriptions, cost analysis, revisions, and recosting | `1.0.0-rc.3` public preview |
+| **Acquisition Policy Agent** | Codified rules, RFO status, deviations, rulemakings, comments, and policy impacts | `1.0.0-rc.1` gated preview; not currently an installable supported path |
+
+Market Research and GovCon Growth require approval before every public-web research run and retain native-only or no-public-web alternatives. Acquisition Policy remains gated on its required Acquisition.gov package and clean release checks. Every agent links its current testing record.
+
+## Advanced building blocks
+
+Most users should start with an agent. Developers and power users can inspect the components or maintain custom configurations:
+
+- [Host-neutral workflow skills](https://github.com/1102tools-dev/federal-contracting-skills)
+- [Federal source MCP servers](https://github.com/1102tools-dev/federal-contracting-mcps)
+- [Advanced MCP-oriented request library](https://github.com/1102tools-dev/federal-contracting-prompts)
 
 Built and maintained by a current lead systems analyst and contracting officer. 1102tools is independently developed and is not affiliated with or endorsed by any federal agency.
 
-## Agents
-
-**Agents: four public previews.** Pre-Award Agent and Other Transaction Agent remain at `1.0.0-rc.3`. GovCon Growth Agent and Market Research Agent are at `1.0.0-rc.2` in repository release `v1.1.0-rc.2`. The two research agents configure Tavily's official keyless remote MCP as an optional third-party capability alongside native host search. Every research run requires explicit provider and sanitized-query approval; users may select native only or no public web, and complete opt-out is documented. Clean marketplace installation and inventory passed in Codex CLI, Claude Code, and Copilot CLI. Tavily initialization/tool discovery and a limited live search check passed without any federal API call. Final `1.0.0` remains gated on the documented client, live-source, routing, and artifact matrix. See [federal-contracting-agents](https://github.com/1102tools-dev/federal-contracting-agents) and the [Universal Setup Guide](https://1102tools.com/downloads/1102tools-universal-setup.pdf).
-
-<!-- updated 2026-08-21 -->
+<!-- updated 2026-08-22 -->
