@@ -2,7 +2,7 @@
 
 Open federal acquisition AI agents for the government workforce and federal contracting industry.
 
-Choose the job in front of you, install one agent package, and describe the work in ordinary language. The maintained setup paths are Codex Desktop and CLI, Claude Code, and DeepSeek Harness Web.
+Choose the job in front of you, install one agent package, and describe the work in ordinary language. The maintained setup paths are Codex Desktop and CLI and Claude Code.
 
 [Agents](https://github.com/1102tools-dev/federal-contracting-agents) · [Website](https://1102tools.com) · [Agent Setup Guide](https://1102tools.com/downloads/1102tools-agent-setup-guide.pdf) · [How It Works](https://1102tools.com/examples)
 
