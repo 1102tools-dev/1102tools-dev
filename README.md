@@ -10,7 +10,7 @@ Choose the job in front of you, install one agent package, and describe the work
 
 | Agent | Work | Status |
 |---|---|---|
-| **Market Research Agent** | FAR Part 10 research, commerciality, competition, small-business availability, and market conditions | `1.0.0-rc.6` public preview |
+| **Market Research Agent** | FAR Part 10 research, commerciality, competition, small-business availability, and market conditions | `1.0.0-rc.7` public preview |
 | **Pre-Award Agent** | SOW/PWS development, IGCEs, and approved scope-to-pricing workflows | `1.0.0-rc.6` public preview |
 | **GovCon Growth Agent** | Opportunities, competitors, recompetes, teaming, agencies, markets, and pricing context | `1.0.0-rc.5` public preview |
 | **Other Transaction Agent** | Milestone-based OT project descriptions, cost analysis, revisions, and recosting | `1.0.0-rc.7` public preview |
