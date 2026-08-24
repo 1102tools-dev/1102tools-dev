@@ -18,7 +18,7 @@ Choose the job in front of you, install one agent package, and describe the work
 
 Market Research and GovCon Growth require approval before every public-web research run. Native web only is recommended; Tavily remains an explicitly selected optional provider and is never a silent fallback. Acquisition Policy reports documented status rather than legal advice or a procurement-specific applicability determination.
 
-The stable marketplace release is [`v1.2.0`](https://github.com/1102tools-dev/federal-contracting-agents/releases/tag/v1.2.0). Codex Desktop/CLI and Claude Code in Claude Desktop/CLI are the two maintained client families and four tested surfaces. Install or select the intended agent before giving the natural-language request; ambient routing remains host-controlled and best effort. This GitHub marketplace is the maintained distribution and is not an official platform storefront listing.
+All five 1102tools agents are stable at `1.0.0`. They are installed from the GitHub-hosted 1102tools marketplace. The marketplace catalog itself is version [`1.2.0`](https://github.com/1102tools-dev/federal-contracting-agents/releases/tag/v1.2.0); that catalog version is separate from the agent package versions. Codex Desktop/CLI and Claude Code in Claude Desktop/CLI are the two maintained client families and four tested surfaces. Install or select the intended agent before giving the natural-language request; ambient routing remains host-controlled and best effort. This GitHub marketplace is the maintained distribution and is not an official platform storefront listing.
 
 ## Advanced building blocks
 
