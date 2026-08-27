@@ -10,8 +10,9 @@ Choose the job in front of you, install one agent package, and describe the work
 
 You do not need to memorize commands or write a long prompt.
 
-- Start a fresh task or session and select the installed agent.
-- Press Enter to open its menu, or describe the job in ordinary language.
+- **Codex Desktop or CLI:** type `@`, begin typing the agent name, and wait for the matching agent to appear.
+- **Claude Code in Desktop or CLI:** type `/`, begin typing the agent name, and wait for its workflow to appear.
+- In either client, press Enter once to load the autocomplete into the prompt box, then press Enter again to send it and start the agent. After the first Enter, you may add an ordinary-language request before sending.
 - Choose the closest numbered route. If you are unsure, select **Help me choose**.
 - The agent will name the recommended deliverable, explain what it includes, identify the decisions that remain yours, and ask for the next specific fact or approval it needs.
 
