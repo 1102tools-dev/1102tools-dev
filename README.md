@@ -8,14 +8,12 @@ Choose the job in front of you, install one agent package, and describe the work
 
 ## No special prompt is required to start
 
-Select the installed agent, press Enter or describe the job in ordinary language, and choose a numbered route. Agent `1.0.2` then leads with:
+You do not need to memorize commands or write a long prompt.
 
-```text
-Recommended outcome: <named chat product, .docx, .xlsx, or combined package>
-Includes: <major contents>
-Boundary/default: <recommended default and reserved decisions>
-Next: <first required fact, document, authority choice, or approval>
-```
+- Start a fresh task or session and select the installed agent.
+- Press Enter to open its menu, or describe the job in ordinary language.
+- Choose the closest numbered route. If you are unsure, select **Help me choose**.
+- The agent will name the recommended deliverable, explain what it includes, identify the decisions that remain yours, and ask for the next specific fact or approval it needs.
 
 The user should not have to invent a report or know the product catalog in advance. The complete route map names all 33 default outcomes. The optional Agent Playbook adds ambitious examples for users who want to see the full reach of a route; it does not bypass readiness, source-plan, artifact, pricing-method, or CO/AO authority gates.
 
@@ -23,9 +21,9 @@ The user should not have to invent a report or know the product catalog in advan
 
 | Agent | Work | Status |
 |---|---|---|
+| **GovCon Growth Agent** | Opportunities, competitors, recompetes, teaming, agencies, markets, and pricing context | `1.0.2` stable |
 | **Market Research Agent** | FAR Part 10 research, commerciality, competition, small-business availability, and market conditions | `1.0.2` stable |
 | **Pre-Award Agent** | SOW/PWS development, IGCEs, and approved scope-to-pricing workflows | `1.0.2` stable |
-| **GovCon Growth Agent** | Opportunities, competitors, recompetes, teaming, agencies, markets, and pricing context | `1.0.2` stable |
 | **Other Transaction Agent** | Milestone-based OT project descriptions, cost analysis, revisions, and recosting | `1.0.2` stable |
 | **Acquisition Policy Agent** | Codified rules, RFO status, deviations, rulemakings, comments, and policy impacts | `1.0.2` stable |
 
@@ -39,8 +37,8 @@ No 1102tools account is required; some federal providers require a free account 
 
 | Agent | Credential state without user keys | What appears at startup |
 |---|---|---|
-| Market Research | `SAM_API_KEY` is required for SAM.gov operations | Missing required credential; only SAM-dependent work stops |
 | GovCon Growth | `SAM_API_KEY` is required for SAM.gov operations | Missing required credential; never mislabels it as a SAM.gov outage |
+| Market Research | `SAM_API_KEY` is required for SAM.gov operations | Missing required credential; only SAM-dependent work stops |
 | Pre-Award | `BLS_API_KEY` recommended; `PERDIEM_API_KEY` relevant to travel pricing | Limited BLS and Per Diem fallback warning; bounded work may continue |
 | Other Transaction | `BLS_API_KEY` recommended; `PERDIEM_API_KEY` relevant to travel pricing | Limited BLS and Per Diem fallback warning; bounded work may continue |
 | Acquisition Policy | `REGULATIONS_GOV_API_KEY` recommended | Limited Regulations.gov `DEMO_KEY` warning; bounded work may continue |
