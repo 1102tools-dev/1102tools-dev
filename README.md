@@ -6,9 +6,17 @@ The prompts describe the job. The MCPs give your AI assistant tools to retrieve 
 
 [Browse the prompts](https://github.com/1102tools-dev/federal-contracting-prompts) · [Connect the MCPs](https://github.com/1102tools-dev/federal-contracting-mcps)
 
+## Available in ChatGPT
+
+Select MCPs are available in the ChatGPT directory. Install and connect them directly from these listings; no user API key or local setup is required.
+
+- [USAspending](https://chatgpt.com/plugins/plugin_asdk_app_6a9ee668cc248191a0bdb9911b546799)
+- [GSA CALC+](https://chatgpt.com/plugins/plugin_asdk_app_6a9eeeebfa8c81918945df0945276cb1)
+- [eCFR](https://chatgpt.com/plugins/plugin_asdk_app_6a9ef0341b04819192935fd4e5cd9b34)
+
 ## Start with a question
 
-1. Choose a request from the **prompts repository** and check its **MCPs used** label.
+1. Choose a request from the **prompts repository** and check its **Required MCPs** label.
 2. Connect those servers using their individual setup instructions in the **MCP repository**. Configure any required API keys and confirm the tools are available in your client.
 3. Replace placeholders such as `[AGENCY]`, `[COMPANY]`, or `[FAR PART]`, then send the request. Ask for source links, relevant dates, and any retrieval gaps.
 
@@ -40,6 +48,6 @@ The prompt library includes requests for individual sources and combinations, wi
 
 SAM.gov requires a user API key. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key. USASpending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
 
-Browse the [light-theme prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers the original eight sources; two additional Acquisition.gov examples are available online.
+Browse the [prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers the original eight sources; two additional Acquisition.gov examples are available online.
 
 Built by James Jenrette. Free and open source. Independently developed and not affiliated with or endorsed by any federal agency. Research results support human judgment; they do not make contracting, legal, or procurement-specific applicability decisions.
