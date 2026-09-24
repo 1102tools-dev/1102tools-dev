@@ -31,7 +31,7 @@ A prompt does not install a server. If a required MCP is unavailable, connect it
 | What you want to do | MCP to connect | Matching prompts |
 |---|---|---|
 | Find solicitations and check company registrations | [SAM.gov](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/sam-gov-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#catching-opportunities) |
-| Research awards, competitors, agencies, and recompetes | [USASpending](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/usaspending-gov-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#competitor-intelligence) |
+| Research awards, competitors, agencies, and recompetes | [USAspending](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/usaspending-gov-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#competitor-intelligence) |
 | Compare awarded labor-rate ceilings | [GSA CALC+](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/gsa-calc-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#gsa-calc) |
 | Look up occupation and location wage data | [BLS OEWS](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/bls-oews-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#bls-oews) |
 | Estimate lodging and meals for travel | [GSA Per Diem](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/gsa-perdiem-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#gsa-per-diem) |
@@ -42,7 +42,7 @@ A prompt does not install a server. If a required MCP is unavailable, connect it
 
 ## Combine sources when the question needs them
 
-- **Competitor research:** USASpending shows award history; SAM.gov adds registration, exclusion, and opportunity records.
+- **Competitor research:** USAspending shows award history; SAM.gov adds registration, exclusion, and opportunity records.
 - **Labor pricing:** BLS supplies wage data; CALC+ supplies awarded ceiling rates; Per Diem adds travel rates. These are different inputs, not interchangeable prices.
 - **Policy research:** eCFR provides codified text; Acquisition.gov provides FAR Overhaul model text and posted deviations; Federal Register and Regulations.gov provide rulemaking history and comments.
 
@@ -50,7 +50,7 @@ The prompt library includes requests for individual sources and combinations, wi
 
 ## Setup and availability
 
-SAM.gov requires a user API key. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key. USASpending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
+SAM.gov requires a user API key. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
 
 Browse the [prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers the original eight sources; two additional Acquisition.gov examples are available online.
 
