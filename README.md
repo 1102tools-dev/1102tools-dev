@@ -6,13 +6,17 @@ The prompts describe the job. The MCPs give your AI assistant tools to retrieve 
 
 [Browse the prompts](https://github.com/1102tools-dev/federal-contracting-prompts) · [Connect the MCPs](https://github.com/1102tools-dev/federal-contracting-mcps)
 
-## Available in ChatGPT
+## Available in ChatGPT and Claude
 
-Select MCPs are available in the ChatGPT directory. Install and connect them directly from these listings; no user API key or local setup is required.
+Select MCPs are published in the ChatGPT and Claude directories. Install and connect them directly from these listings; no user API key or local setup is required.
 
-- [USAspending](https://chatgpt.com/plugins/plugin_asdk_app_6a9ee668cc248191a0bdb9911b546799)
-- [GSA CALC+](https://chatgpt.com/plugins/plugin_asdk_app_6a9eeeebfa8c81918945df0945276cb1)
-- [eCFR](https://chatgpt.com/plugins/plugin_asdk_app_6a9ef0341b04819192935fd4e5cd9b34)
+| MCP | ChatGPT | Claude |
+|---|---|---|
+| USAspending | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9ee668cc248191a0bdb9911b546799) | Coming soon |
+| GSA CALC+ | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9eeeebfa8c81918945df0945276cb1) | Coming soon |
+| eCFR | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9ef0341b04819192935fd4e5cd9b34) | [Install](https://claude.ai/directory/ecfr-by-1102tools) |
+| Federal Register | Coming soon | [Install](https://claude.ai/directory/federal-register-by-1102tools) |
+| Acquisition.gov | Coming soon | Coming soon |
 
 ## Start with a question
 
