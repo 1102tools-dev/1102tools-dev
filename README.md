@@ -52,6 +52,6 @@ The prompt library includes requests for individual sources and combinations, wi
 
 SAM.gov requires a user API key. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
 
-Browse the [prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers the original eight sources; two additional Acquisition.gov examples are available online.
+Browse the [prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers all 56 prompts across the nine sources.
 
 Built by James Jenrette. Free and open source. Independently developed and not affiliated with or endorsed by any federal agency. Research results support human judgment; they do not make contracting, legal, or procurement-specific applicability decisions.
