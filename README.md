@@ -12,23 +12,26 @@ The prompts describe the job. The MCPs give your AI assistant tools to retrieve 
 
 - **Free.** MIT-licensed, with no subscription and no credits. Directory installs need no account or API key.
 - **Tested hard.** 5,429 regression tests across 9 servers and 133 tools, with up to ten audit rounds per server against the live government APIs. Every bug found becomes a permanent test.
-- **Listed.** 4 servers in the Claude directory and 3 in the ChatGPT directory.
+- **Listed, no keys.** 4 servers in the Claude directory and 3 in the ChatGPT directory, with all nine coming to both. Directory installs need no user API key.
 - **One of a kind.** The only known MCP server for Acquisition.gov FAR Overhaul model text and agency class deviations.
 
 See [how 1102tools compares](https://1102tools.com/compare) with paid GovCon platforms and other MCP servers.
 
 ## Available in Claude and ChatGPT
 
-Select MCPs are published in the Claude and ChatGPT directories. Install and connect them directly from these listings; no user API key or local setup is required.
+Select MCPs are published in the Claude and ChatGPT directories. Install and connect them directly from these listings; no user API key or local setup is required. The rest are coming soon, also with no user API key.
 
 | MCP | Claude | ChatGPT |
 |---|---|---|
+| SAM.gov (hosted, keyless) | Coming soon | Coming soon |
 | USAspending | [Install](https://claude.ai/directory/usaspending-by-1102tools) | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9ee668cc248191a0bdb9911b546799) |
 | GSA CALC+ | [Install](https://claude.ai/directory/gsa-calc-by-1102tools) | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9eeeebfa8c81918945df0945276cb1) |
+| BLS OEWS | Coming soon | Coming soon |
+| GSA Per Diem | Coming soon | Coming soon |
 | eCFR | [Install](https://claude.ai/directory/ecfr-by-1102tools) | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9ef0341b04819192935fd4e5cd9b34) |
-| Federal Register | [Install](https://claude.ai/directory/federal-register-by-1102tools) | Coming soon |
 | Acquisition.gov | Coming soon | Coming soon |
-| SAM.gov (hosted, keyless) | Coming soon | Coming soon |
+| Federal Register | [Install](https://claude.ai/directory/federal-register-by-1102tools) | Coming soon |
+| Regulations.gov | Coming soon | Coming soon |
 
 ## Start with a question
 
@@ -48,9 +51,9 @@ A prompt does not install a server. If a required MCP is unavailable, connect it
 | Look up occupation and location wage data | [BLS OEWS](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/bls-oews-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#bls-oews) |
 | Estimate lodging and meals for travel | [GSA Per Diem](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/gsa-perdiem-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#gsa-per-diem) |
 | Read and compare codified FAR, DFARS, and CFR text | [eCFR](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/ecfr-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#ecfr) |
+| Research FAR Overhaul model text and posted agency deviations | [Acquisition.gov](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/acquisition-gov-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#far-overhaul-and-agency-deviations) |
 | Follow proposed rules, final rules, and FAR cases | [Federal Register](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/federal-register-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#federal-register) |
 | Explore rulemaking dockets and public comments | [Regulations.gov](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/regulations-gov-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#regulationsgov) |
-| Research FAR Overhaul model text and posted agency deviations | [Acquisition.gov](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/acquisition-gov-mcp) | [Open prompts](https://github.com/1102tools-dev/federal-contracting-prompts#far-overhaul-and-agency-deviations) |
 
 ## Combine sources when the question needs them
 
@@ -62,7 +65,7 @@ The prompt library includes requests for individual sources and combinations, wi
 
 ## Setup and availability
 
-The local SAM.gov server requires a free user API key; a keyless hosted edition is coming soon to the Claude and ChatGPT directories. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
+The local SAM.gov server requires a free user API key; a keyless hosted edition is coming soon to the Claude and ChatGPT directories. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key locally, and hosted editions that need no user key are coming soon to both directories. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
 
 Browse the [prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers all 56 prompts across the nine sources.
 
