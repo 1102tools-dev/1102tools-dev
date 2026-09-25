@@ -28,6 +28,7 @@ Select MCPs are published in the Claude and ChatGPT directories. Install and con
 | eCFR | [Install](https://claude.ai/directory/ecfr-by-1102tools) | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9ef0341b04819192935fd4e5cd9b34) |
 | Federal Register | [Install](https://claude.ai/directory/federal-register-by-1102tools) | Coming soon |
 | Acquisition.gov | Coming soon | Coming soon |
+| SAM.gov (hosted, keyless) | Coming soon | Coming soon |
 
 ## Start with a question
 
@@ -61,7 +62,7 @@ The prompt library includes requests for individual sources and combinations, wi
 
 ## Setup and availability
 
-SAM.gov requires a user API key. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
+The local SAM.gov server requires a free user API key; a keyless hosted edition is coming soon to the Claude and ChatGPT directories. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
 
 Browse the [prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers all 56 prompts across the nine sources.
 
