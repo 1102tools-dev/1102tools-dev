@@ -1,6 +1,6 @@
 # 1102tools
 
-**Federal contracting prompts and MCP servers for working with official government sources.**
+**Free, open-source federal contracting prompts and MCP servers for working with official government sources.**
 
 The prompts describe the job. The MCPs give your AI assistant tools to retrieve the source material. Use them together to research opportunities, awards, pricing, regulations, and policy changes.
 
