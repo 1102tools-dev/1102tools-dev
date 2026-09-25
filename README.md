@@ -1,6 +1,6 @@
 # 1102tools
 
-[![price: free](https://img.shields.io/badge/price-free-007a59)](https://1102tools.com/#why) [![license: MIT](https://img.shields.io/badge/license-MIT-007a59)](https://github.com/1102tools-dev/federal-contracting-mcps/blob/main/license) [![regression tests: 5,429](https://img.shields.io/badge/regression%20tests-5%2C429-007a59)](https://github.com/1102tools-dev/federal-contracting-mcps#testing-and-maintenance) [![Claude directory: 4 servers](https://img.shields.io/badge/Claude%20directory-4%20servers-172f2a)](#available-in-claude-and-chatgpt) [![ChatGPT directory: 3 servers](https://img.shields.io/badge/ChatGPT%20directory-3%20servers-172f2a)](#available-in-claude-and-chatgpt)
+[![price: free](https://img.shields.io/badge/price-free-007a59)](https://1102tools.com/#why) [![license: MIT](https://img.shields.io/badge/license-MIT-007a59)](https://github.com/1102tools-dev/federal-contracting-mcps/blob/main/license) [![regression tests: 5,439](https://img.shields.io/badge/regression%20tests-5%2C439-007a59)](https://github.com/1102tools-dev/federal-contracting-mcps#testing-and-maintenance) [![Claude directory: 4 servers](https://img.shields.io/badge/Claude%20directory-4%20servers-172f2a)](#available-in-claude-and-chatgpt) [![ChatGPT directory: 3 servers](https://img.shields.io/badge/ChatGPT%20directory-3%20servers-172f2a)](#available-in-claude-and-chatgpt)
 
 **Free, open-source federal contracting prompts and MCP servers for working with official government sources.**
 
@@ -11,8 +11,8 @@ The prompts describe the job. The MCPs give your AI assistant tools to retrieve 
 ## Why 1102tools
 
 - **Free.** MIT-licensed, with no subscription and no credits. Directory installs need no account or API key.
-- **Tested hard.** 5,429 regression tests across 9 servers and 133 tools, with up to ten audit rounds per server against the live government APIs. Every bug found becomes a permanent test.
-- **Listed, no keys.** 4 servers in the Claude directory and 3 in the ChatGPT directory, with all nine coming to both. Directory installs need no user API key.
+- **Tested hard.** 5,439 collected regression tests, including live-API tests, across 9 servers and 133 tools, with up to ten audit rounds per server against the live government APIs. Published testing records document each bug fixed and the tests added.
+- **Listed, no keys.** 4 servers in the Claude directory and 3 in the ChatGPT directory, with all nine planned for both. Directory installs need no user API key.
 - **One of a kind.** The only known MCP server for Acquisition.gov FAR Overhaul model text and agency class deviations.
 
 See [how 1102tools compares](https://1102tools.com/compare) with paid GovCon platforms and other MCP servers.
