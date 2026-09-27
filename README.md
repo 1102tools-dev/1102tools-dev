@@ -23,7 +23,7 @@ All nine MCPs install and run locally today; the **Local** column links to each 
 
 | MCP | Claude | ChatGPT | Local |
 |---|---|---|---|
-| SAM.gov | Coming soon | Coming soon | [Install](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/sam-gov-mcp#installation) (free key) |
+| SAM.gov | Coming soon | Coming soon | [Install](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/sam-gov-mcp#installation) (free key, full 20-tool edition) |
 | USAspending | [Install](https://claude.ai/directory/usaspending-by-1102tools) | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9ee668cc248191a0bdb9911b546799) | [Install](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/usaspending-gov-mcp#installation) |
 | GSA CALC+ | [Install](https://claude.ai/directory/gsa-calc-by-1102tools) | [Install](https://chatgpt.com/plugins/plugin_asdk_app_6a9eeeebfa8c81918945df0945276cb1) | [Install](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/gsa-calc-mcp#installation) |
 | BLS OEWS | Coming soon | Coming soon | [Install](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/bls-oews-mcp#installation) (free key) |
@@ -37,6 +37,7 @@ All nine MCPs install and run locally today; the **Local** column links to each 
 
 - **Claude and ChatGPT:** Install from the directory listing. No API key and no setup. The MCP runs on Cloudflare at its own 1102tools.com address, such as `usaspending.1102tools.com`, and your AI app connects to it over the internet. The hosted servers don't store your queries, results, or conversations, and request logging is turned off, so no one at 1102tools sees what you look up. The server code and Cloudflare setup are public in [federal-contracting-mcps](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/deploy). Cloudflare still handles connection data such as IP addresses, and Claude or ChatGPT handles your conversation under its own privacy policy.
 - **Local:** The MCP runs on your own computer and works with any MCP-compatible app. Requests go straight from your computer to the government source, and nothing passes through 1102tools.com. SAM.gov, BLS OEWS, GSA Per Diem and Regulations.gov need a free API key from the agency. Each setup guide shows how to get one.
+- **SAM.gov comes in two editions.** The directory version (coming soon) has 4 keyless tools for contract opportunities, award notices, and justifications. The full version has 20 tools and adds entity registrations, SBA certifications, exclusions, and contract award records. It needs a free SAM.gov key and a local install; there is no one-click directory install for it. [Compare the editions](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/sam-gov-mcp#two-editions-hosted-or-full).
 
 ## Start with a question
 
@@ -62,7 +63,7 @@ A prompt does not install a server. If a required MCP is unavailable, connect it
 
 ## Combine sources when the question needs them
 
-- **Competitor research:** USAspending shows award history; SAM.gov adds registration, exclusion, and opportunity records.
+- **Competitor research:** USAspending shows award history; SAM.gov adds opportunity records, plus registration and exclusion records from its full local edition.
 - **Labor pricing:** BLS supplies wage data; CALC+ supplies awarded ceiling rates; Per Diem adds travel rates. These are different inputs, not interchangeable prices.
 - **Policy research:** eCFR provides codified text; Acquisition.gov provides FAR Overhaul model text and posted deviations; Federal Register and Regulations.gov provide rulemaking history and comments.
 
@@ -70,7 +71,7 @@ The prompt library includes requests for individual sources and combinations, wi
 
 ## Setup and availability
 
-The local SAM.gov server requires a free user API key; a keyless hosted edition is coming soon to the Claude and ChatGPT directories. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key locally, and hosted editions that need no user key are coming soon to both directories. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
+The full local SAM.gov server (20 tools) requires a free user API key; a keyless hosted edition with 4 tools for contract opportunities is coming soon to the Claude and ChatGPT directories. BLS OEWS, GSA Per Diem, and Regulations.gov offer limited access without a user key locally, and hosted editions that need no user key are coming soon to both directories. USAspending, GSA CALC+, eCFR, Federal Register, and Acquisition.gov require no user key. Follow each server's README for current configuration and access limits.
 
 Browse the [prompt library](https://1102tools.com/#prompts), download the [September 2026 MCP Prompt Guide](https://1102tools.com/downloads/1102tools-prompt-guide.pdf), or use the repositories above for source code and installation instructions. The print guide covers all 56 prompts across the nine sources.
 
