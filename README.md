@@ -13,7 +13,7 @@ The prompts describe the job. The MCPs give your AI assistant tools to retrieve 
 ## Why 1102tools
 
 - **Free.** MIT-licensed, with no subscription and no credits. Hosted installs need no account or API key.
-- **Tested.** Thousands of regression tests, including live-API tests, across 9 servers and 133 tools, with up to ten audit rounds per server against the live government APIs. Published testing records document each bug fixed and the tests added.
+- **Tested.** Checked against the government sources, reviewed by Claude Code and Codex, and backed by thousands of regression tests. [How it's tested](https://github.com/1102tools-dev/federal-contracting-mcps#testing).
 - **Listed.** All 9 servers are in the Claude directory and 6 are in the ChatGPT directory, with the rest in review for ChatGPT. Hosted installs need no user API key.
 - **One of a kind.** The only known MCP server for Acquisition.gov FAR Overhaul model text and agency class deviations.
 
