@@ -6,6 +6,6 @@
 
 **Free, open-source federal contracting MCP servers and prompts for working with official government sources.**
 
-[MCP servers and setup](https://github.com/1102tools-dev/federal-contracting-mcps) · [Prompts](https://github.com/1102tools-dev/federal-contracting-prompts) · [1102tools.com](https://1102tools.com)
+[MCP servers and setup](https://github.com/1102tools-dev/federal-contracting-mcps) · [Prompts](https://github.com/1102tools-dev/federal-contracting-prompts) · [1102tools.com](https://1102tools.com) · [YouTube](https://www.youtube.com/@1102tools)
 
 Independently developed and not affiliated with or endorsed by any federal agency.
