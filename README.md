@@ -8,4 +8,14 @@
 
 Independently developed and not affiliated with or endorsed by any federal agency.
 
-**Not sure where to start?** Get [SAM.gov](https://1102tools.com/mcp/sam-gov) to find opportunities, [USAspending](https://1102tools.com/mcp/usaspending) to see who has the work now, and [eCFR](https://1102tools.com/mcp/ecfr) for the FAR. For the FAR Overhaul (RFO), add [Acquisition.gov](https://1102tools.com/mcp/acquisition-gov).
+## Not sure where to start?
+
+Get these three first:
+
+1. **[SAM.gov](https://1102tools.com/mcp/sam-gov)**: where the work is. Find open opportunities to bid on, and check a company's registration and exclusions.
+2. **[USAspending](https://1102tools.com/mcp/usaspending)**: who has the work now. See who won past contracts, for how much, and when they end.
+3. **[eCFR](https://1102tools.com/mcp/ecfr)**: what the rules say. Look up any FAR or DFARS clause and get the actual text, not an AI's guess.
+
+Working under the FAR Overhaul (RFO)? Add **[Acquisition.gov](https://1102tools.com/mcp/acquisition-gov)** as your fourth. It has the RFO model text and the class deviations each agency has issued.
+
+Add them from the [install table](https://github.com/1102tools-dev/federal-contracting-mcps#local-or-hosted).
