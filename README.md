@@ -4,8 +4,8 @@
 
 **Free, open-source federal contracting MCP servers and prompts for working with official government sources.**
 
-**Not sure where to start?** Get [SAM.gov](https://1102tools.com/mcp/sam-gov) to find opportunities, [USAspending](https://1102tools.com/mcp/usaspending) to see who has the work now, and [eCFR](https://1102tools.com/mcp/ecfr) for the FAR. For the FAR Overhaul (RFO), add [Acquisition.gov](https://1102tools.com/mcp/acquisition-gov).
-
 [MCP servers and setup](https://github.com/1102tools-dev/federal-contracting-mcps) · [Prompts](https://github.com/1102tools-dev/federal-contracting-prompts) · [1102tools.com](https://1102tools.com) · [Privacy](https://1102tools.com/privacy) · [YouTube](https://www.youtube.com/@1102tools)
 
 Independently developed and not affiliated with or endorsed by any federal agency.
+
+**Not sure where to start?** Get [SAM.gov](https://1102tools.com/mcp/sam-gov) to find opportunities, [USAspending](https://1102tools.com/mcp/usaspending) to see who has the work now, and [eCFR](https://1102tools.com/mcp/ecfr) for the FAR. For the FAR Overhaul (RFO), add [Acquisition.gov](https://1102tools.com/mcp/acquisition-gov).
